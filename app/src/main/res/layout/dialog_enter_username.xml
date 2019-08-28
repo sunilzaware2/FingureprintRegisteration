@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:gravity="center"
+        android:padding="@dimen/padding_ten"
+        android:textSize="@dimen/sixteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/edtEnterUserName"
+        android:layout_below="@+id/txtHeader"
+        android:inputType="text"
+        android:singleLine="true"
+        android:padding="@dimen/sixteen"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sixteen"
+        android:hint="@string/enterUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtSubmit"
+        android:textColor="@color/white"
+        android:layout_below="@+id/edtEnterUserName"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:text="@string/done"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="@dimen/padding_ten"
+        android:textSize="@dimen/sixteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
